@@ -1,0 +1,10 @@
+- docker-compose build
+- docker-compose run --rm --service-ports ruby_dev
+- rails new <myapp_name>
+- bundle update && bundle install
+- rails server -p $PORT -b 0.0.0.0
+- rails c
+- bin/rails generate controller <ControllerName/Users> index
+- bin/rails generate model <ModelName/AddUserRefToAddresses>
+- bin/rails db:migrate
+- bin/rails db:rollback
